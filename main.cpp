@@ -40,7 +40,7 @@ void loop(){
 
     for (int angle = 0; angle <= 180; angle += 5){
         for (int i = 0; i < number_of_servo; i++){
-            ledcWrite(pwnChannels[i],angleToDuty(angle));
+            ledcWrite(servo[i],angleToDuty(angle));
         } 
 
         delay(20);
@@ -53,12 +53,11 @@ void loop(){
 
     for (int angle = 180; angle >= 0; angle -= 5){
         for (int i = 0; i < number_of_servo; i++){
-            ledcWrite(pwnChannels[i], angleToDuty(angle));
+            ledcWrite(servo[i], angleToDuty(angle));
         }
 
         delay(20);
-    }
-
+    } 
 
     delay(1000);
 
