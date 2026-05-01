@@ -33,6 +33,19 @@ void setup(){
 
 }
 
+void movingFunction(int number; int angle){
+    ledcWrite(servo[number], anglueToDuty(angle));
+}
+
+void moveForward(){
+
+}
+
+void moveBack(){
+    
+}
+
+
 void loop(){
     // now we have to write the code to controll
 
