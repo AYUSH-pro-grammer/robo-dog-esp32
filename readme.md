@@ -1,5 +1,14 @@
 # RoboDog (8 Servos Quadruped)
 
+
+## Motivation
+
+The goal of this project is to design and build a low-cost quadruped robot using commonly available components and 3D-printed parts. The robot serves as an engineering project focused on mechanical design, embedded systems, CAD modeling, and robotics.
+
+The project was designed to be simple enough for students and hobbyists to reproduce while still demonstrating key concepts such as servo control, gait generation, power distribution, and robot assembly.
+
+---
+
 ## Introduction
 
 RoboDog is a simple 8-servo quadruped robot made for an engineering project.  
@@ -58,15 +67,54 @@ This project includes:
 
 ## Wiring Diagram
 
-![](image/wiring-diagram.png)
+<img width="1162" height="788" alt="Screenshot 2026-06-15 at 6 13 04 PM" src="https://github.com/user-attachments/assets/22fb3cbd-6d8d-4e8b-8cf6-feab09c9b4ef" />
 
-> Add your wiring diagram image here.
+---
+## Features
+
+* 8 DOF quadruped design
+* ESP32-based control system
+* PCA9685 servo driver
+* 3D printed frame
+* Remote control operation
+* Modular and easy-to-modify design
+* Fusion 360 source files included
 
 ---
 
-## CAD File Structure
+## Repository Structure
 
-The CAD files are stored in:
+```text
+.
+├── cad/
+│   └── robodog/
+│       ├── design.f3z
+│       ├── body.stl
+│       ├── leg_upper.stl
+│       ├── leg_lower.stl
+│       └── assembly.stl
+│
+├── image/
+│   ├── image1.png
+│   ├── image2.png
+│   ├── wiring-diagram.png
+│   └── assembly-view.png
+│
+├── firmware/
+│   ├── main.ino
+│   ├── gait_controller.h
+│   └── config.h
+│
+├── docs/
+│   ├── BOM.csv
+│   ├── wiring.pdf
+│   └── assembly-guide.pdf
+│
+└── README.md
+```
 
-```txt
-/cad/robodog
+
+
+
+
+
