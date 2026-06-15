@@ -80,40 +80,56 @@ This project includes:
 * Modular and easy-to-modify design
 * Fusion 360 source files included
 
----
-
 ## Repository Structure
 
 ```text
 .
 ├── cad/
-│   └── robodog/
-│       ├── design.f3z
-│       ├── body.stl
-│       ├── leg_upper.stl
-│       ├── leg_lower.stl
-│       └── assembly.stl
+│   ├── robodog.f3z
+│   ├── robodog.step
+│   └── robodog.stl
 │
 ├── image/
 │   ├── image1.png
-│   ├── image2.png
-│   ├── wiring-diagram.png
-│   └── assembly-view.png
+│   └── image2.png
 │
-├── firmware/
-│   ├── main.ino
-│   ├── gait_controller.h
-│   └── config.h
-│
-├── docs/
-│   ├── BOM.csv
-│   ├── wiring.pdf
-│   └── assembly-guide.pdf
-│
-└── README.md
+├── Robo Dog-bom.csv
+├── main.cpp
+├── readme.md
+└── LICENSE (optional)
 ```
 
+### Folder Description
 
+#### cad/
+
+Contains the CAD and manufacturing files for the robot.
+
+* `robodog.f3z` - Fusion 360 project file
+* `robodog.step` - Universal CAD exchange file
+* `robodog.stl` - 3D printable model
+
+#### image/
+
+Contains project images used in the documentation.
+
+* `image1.png`
+* `image2.png`
+
+#### Robo Dog-bom.csv
+
+Complete Bill of Materials (BOM) used for the project.
+
+#### main.cpp
+
+Source code for the ESP32 controller.
+
+#### readme.md
+
+Project documentation, build instructions, images, and hardware information.
+
+```
+```
 
 
 
