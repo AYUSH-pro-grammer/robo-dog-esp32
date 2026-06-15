@@ -1,2 +1,23 @@
-Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
-"battery","to run whole thing",1,15.00,"https://robu.in/product/orange-transmitter-tx-2500mah-2s-3c7-4v-lithium-polymer-battery-pack-lipo","robu"
+# RoboDog Quadruped BOM (8-Servo Version)
+
+```csv
+Name,Purpose,Quantity,Total Cost (USD),Link,Supplier
+"LiPo Battery 7.4V 2500mAh","power source for entire robot",1,15.00,"https://robu.in/product/orange-transmitter-tx-2500mah-2s-3c7-4v-lithium-polymer-battery-pack-lipo","Robu"
+"30KG Servo Motor","actuate robot joints",8,96.00,"https://robu.in/","Robu"
+"Arduino Uno","main robot controller",1,8.00,"https://robu.in/","Robu"
+"PCA9685 Servo Driver","control up to 16 servos via I2C",1,5.00,"https://robu.in/","Robu"
+"2.4GHz RC Transmitter","wireless remote controller",1,25.00,"https://robu.in/","Robu"
+"2.4GHz RC Receiver","receives commands from transmitter",1,12.00,"https://robu.in/","Robu"
+"5V UBEC 10A","regulated power for servos",1,8.00,"https://robu.in/","Robu"
+"Power Switch","main power control",1,1.00,"https://robu.in/","Robu"
+"XT60 Connector Set","battery connection",1,2.00,"https://robu.in/","Robu"
+"Jumper Wire Set","electrical connections",1,3.00,"https://robu.in/","Robu"
+"Servo Extension Cables","extend servo wiring",8,4.00,"https://robu.in/","Robu"
+"Prototype PCB","mount electronics",1,2.00,"https://robu.in/","Robu"
+"M3 Screw Kit","assemble frame and electronics",1,5.00,"https://robu.in/","Robu"
+"Ball Bearings","reduce joint friction",8,8.00,"https://robu.in/","Robu"
+"3D Printed Frame","robot body and legs",1,30.00,"N/A","Local 3D Printing Service"
+"Rubber Feet","improve grip while walking",4,2.00,"https://robu.in/","Robu"
+"Battery Charger","charge LiPo battery safely",1,10.00,"https://robu.in/","Robu"
+"TOTAL","","",236.00,"",""
+```
