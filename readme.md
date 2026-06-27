@@ -1,5 +1,11 @@
 # RoboDog (8 Servos Quadruped)
 
+## final build
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/7c3f4d1d-1f6a-4c6b-b71b-ec852803d1a1" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/b690c8ef-2357-4d55-8ac9-4cc27ae2a850" />
+
+
 
 ## Motivation
 
@@ -8,6 +14,8 @@ The goal of this project is to design and build a low-cost quadruped robot using
 The project was designed to be simple enough for students and hobbyists to reproduce while still demonstrating key concepts such as servo control, gait generation, power distribution, and robot assembly.
 
 ---
+
+
 
 ## Introduction
 
